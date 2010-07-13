@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+	<testmod-panel type="Zend_Controller_Router_Route_Static">
+		<route>testmod/panel</route>
+		<defaults module="testmod" controller="index" action="index" />
+	</testmod-panel>
+</routes>

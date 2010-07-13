@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+	<index type="Zend_Controller_Router_Route_Static">
+		<route></route>
+		<defaults module="default" controller="index" action="index" />
+	</index>
+</routes>

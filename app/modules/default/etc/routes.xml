@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+	<default-test type="Zend_Controller_Router_Route_Static">
+		<route>test</route>
+		<defaults module="default" controller="index" action="index" />
+	</default-test>
+	<default-get-resource type="Zend_Controller_Router_Route_Regex">
+		<route>res/([A-Za-z0-9]*)/(.*)</route>
+		<defaults module="default" controller="resource" action="get" />
+		<map source_module="1" file="2" />
+		<reverse>res/%s/%s</reverse>
+	</default-get-resource>
+</routes>
